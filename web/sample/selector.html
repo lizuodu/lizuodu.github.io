@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link href="//cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+        <link href="./selector/stylesheets/jsTree.min.css" rel="stylesheet"/>
+        <script src="//cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+        <script src="./selector/jstree.min.js"></script>
+        
+        <link href="./selector/stylesheets/style.css?v=1.2" rel="stylesheet"/>
+        <script src="./selector/selectortree.js?v=1.1"></script>
+        
+        <style type="text/css">
+            
+        </style>
+
+        <script>
+            window.onload = function () {
+
+                var btnEdit0 = $("#ipt0").btnEdit({
+                    url: 'data/singletree.json',
+                    type: 'singletree',
+                    title: '普通单选树',
+                    label: {
+                        title: '普通单选树',
+                        style: 'border:0;',
+                        require: true
+                    },
+                    readonly: true,
+                    initComplete: function () {
+                        console.log('init done.');
+                    },
+                    callback: function (data) {
+                        console.log(data);
+                    }
+                });
+                console.log('version: ' + btnEdit0.v);
+
+                $("#ipt1").btnEdit({
+                    url: 'data/checktree.json',
+                    type: 'checktree',
+                    title: '多选树',
+                    label: {
+                        title: '多选树'
+                    },
+                    callback: function (data) {
+                        console.log(data);
+                    }
+                });
+                
+                var btnEdit2 = $("#ipt2").btnEdit({
+                    url: 'data/checktree.json',
+                    type: 'checktree',
+                    btnText: '按钮',
+                    rightCart: true,
+                    leftSearch: true,
+                    readonly: true,
+                    rightCartItemIcon: 'selector/images/item.png',
+                    leftTitle: '<b>选择项目</b>',
+                    rightCartTitle: '已选择的项目',
+                    title: '选择树列表',
+                    label: {
+                        title: '选择树列表'
+                    },
+                    prompt: '<b>提示：</b>勾选勾选选勾选勾选勾勾选勾选',
+                    comment: '<span style="color:#FE8C19;"><b>批注：</b>批注批注批注批注批注批注</span>',
+                    notAddItem: [12],
+                    callback: function (data) {
+                        console.log(data);
+                    }
+                });
+                
+                $("#ipt3").btnEdit({
+                    url: 'data/checktree.json',
+                    type: 'checktree',
+                    title: '给树赋默认值',
+                    label: {
+                        title: '给树赋默认值'
+                    },
+                    readonly: true
+                });
+                
+                $("#ipt4").btnEdit({
+                    url: 'data/singletree.json',
+                    rightCartUrl: 'data/singletree.json?action=r',
+                    type: 'singletree',
+                    rightCart: true,
+                    rightCartItemIcon: 'selector/images/item.png',
+                    prompt: '点击列表项，动态加载项...',
+                    title: '单选树级联列表',
+                    label: {
+                        title: '单选树级联列表'
+                    },
+                    callback: function (data) {
+                        console.log(data);
+                    }
+                });
+
+                
+            };
+        </script>
+    </head>
+    <body>
+        <table>
+            <tr>
+                <td><input type="text" id="ipt0" name="ipt0"/></td>
+            </tr>
+            <tr>
+                <td><input type="text" id="ipt1" style="width: 500px;"/></td>
+            </tr>
+            <tr>
+                
+                <td><input type="text" id="ipt2" style="width: 500px;"/></td>
+            </tr>
+            <tr>
+                <td><input type="text" id="ipt3" style="width:500px;" data-key="7,8,9" 
+                           value="bootstrap.js,hplus.min.js,jquery.min.js"/></td>
+            </tr>
+            <tr>
+                <td><input type="text" id="ipt4"/></td>
+            </tr>
+        </table>
+    </body>
+</html>
+
+
+
+

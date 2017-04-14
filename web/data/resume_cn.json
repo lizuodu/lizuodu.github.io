@@ -1,0 +1,102 @@
+{
+    "Gender": "男",
+    "Name": "李坐都",
+    "Phone": "186_8238_9514",
+    "Profession": ".NET/C# & MS SQL Server程序员",
+    "School": { "StartDate": 2009, "EndDate": 2013 , "Name": "重庆邮电大学"},
+    "Skill": [
+        { "Type": "数据库", "Name": "MS SQL Server"},
+        { "Type": "WEB开发", "Name": "HTML, CSS, Javascript/jQuery/ExtJs, ASP.NET"},
+        { "Type": "WINDOWS应用开发", "Name": "WinForm"}
+    ],
+    "Birthday": "1991",
+    "Brief": "热爱.NET，毕业至今一直从事C#开发工作。掌握.NET常用基类库，C#编程语言及语法特性；热爱MS SQL Server数据库，并在工作中能根据需求优化T-SQL；了解面相对象特性和原则，了解部分设计模式。使用.NET/C#在生产制造和物业相关领域从事过3年左右的开发工作，涉及B/S和C/S架构的系统，并了解部分相关业务流程。",
+    "Education": "计算机及应用(本科)",
+    "Email": "lizuodu@163.com",
+    "Web": {
+        "GitHub": "https://github.com/lizuodu",
+        "Sample": "https://lizuodu.github.io/sample/"
+    },
+    "Experience": [
+        {
+            "Place" : "深圳市思源计算机软件股份有限公司",
+            "Position": ".NET中级工程师",
+            "Project": [
+                {
+                    "Name": "1、思源财务预算系统",
+                    "Introduce": "",
+                    "Role": "",
+                    "Get": [
+                        { "Description": "" }
+                    ]
+                }
+            ],
+            "StartDate": "2016.12",
+            "EndDate": "至今"
+        },
+        {
+            "Place": "深圳市思源计算机软件股份有限公司 ",
+            "Position": ".NET初级工程师",
+            "Project": [
+                {
+                    "Name": "1、思源物业系统",
+                    "Introduce": "对不动产进行管理",
+                    "Role": "普通开发人员，对系统新增的功能进行开发，如：单点登录、涉及PKCS#11的USB Key、航天开票税控接口等的开发；完成部分模块的业务功能如：租赁、仓库、客服、设备、财务的新需求开发；完成客户需要的各种个性化报表、接口等。",
+                    "Get": [
+                        { "Description": "了解了不动产管理相关的业务" },
+                        { "Description": "了解了Redis3.x" },
+                        { "Description": "使用Remoting实现进程通信共享数据对象，解决了航天税控(.NET4.0)和思源物业系统(.NET3.5)开票问题" },
+                        { "Description": "认识了PKCS#11" }
+                    ] 
+                }
+            ],
+            "StartDate": "2016.3",
+            "EndDate": "2016.12"
+        },
+        {
+            "Place": "深圳市金朵尔科技有限公司",
+            "Position": "ASP.NET 工程师",
+            "Project": [
+                {
+                    "Name": "1、力拓CRM+手机版WebApp",
+                    "Introduce": "根据需求为现有CRM系统增加功能，WebApp为现有CRM系统做客户端延伸。",
+                    "Role": "完成CRM新增业务功能，完成WebApp界面美化，框架的封装与整合；业务功能上包括不同权限级别的工作台开发。",
+                    "Get": [
+                        { "Description": "使用了EasyUI富客户端框架" },
+                        { "Description": "使用了MySQL" },
+                        { "Description": "初次尝试了Android开发" }
+                    ]
+                }
+            ],
+            "StartDate": "2015.4",
+            "EndDate": "2015.12"
+        },
+        {
+            "Place": "东莞技研新阳集团",
+            "Position": ".NET程序员",
+            "Project": [
+                {
+                    "Name": "1、集团内部品质步留系统",
+                    "Introduce": "结合数据采集系统，开发一套前端管理系统，方便管理人员实时监控生产线上各个时间点产生的不良数、不良率等。",
+                    "Role": "主力开发之一，向业务单位了解需求，整理成文档，供上长和业务单位共同评审。编写代码， 编写存储过程，将返回结果在服务器端进行行列转换等操作，将数据格式化，前端使用ExtJS框架图表功能等进行展示。",
+                    "Get": [
+                        { "Description": "首次接触ASP.NET MVC3，对MVC有了初步认识" },
+                        { "Description": "首次接触ExtJS4.x，尝试了JS富客户端的开发，对JS又有了进一步的认识" },
+                        { "Description": "学习到如何通过T-SQL生成交叉表，和大部份数据库的知识" }
+                    ] 
+                },
+                {
+                    "Name": "2、集团内部ERP仓储物流子系统",
+                    "Introduce": "用于对集团下属子公司仓库材料管理，流转进行管理。",
+                    "Role": "普通开发人员，整理部分需求，独立开发PDA程序，使用公司内部框架开发桌面程序，FastReport报表等，改造公司内部基类框架，增加WCF服务基类，使程序系统支持子公司网络。",
+                    "Get": [
+                        { "Description": "对仓储物流有了一些了解" },
+                        { "Description": "第一次使用.NET Compact3.5在WinCE6.0上开发程序" }
+                    ] 
+                }
+            ],
+            "StartDate": "2013.7",
+            "EndDate": "2015.4"
+        }
+    ]
+}

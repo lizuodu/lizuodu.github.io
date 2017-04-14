@@ -1,0 +1,126 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Microsoft YaHei';
+    font-size: 14px;
+}
+h1 {
+    cursor: pointer;
+    width: 200px;
+}
+h1, h2, h3 {
+    margin: 0;
+    padding: 0;
+    font-size: 40px;
+    font-weight: normal;
+    letter-spacing: 3px;
+}
+h2 {
+    float: left;
+    font-size: 25px;
+    font-style: italic;
+}
+h3 {
+    letter-spacing: 2px;
+    font-size: 18px;
+}
+p {
+    display: block;
+    margin: 0;
+    line-height: 24px;
+}
+a {
+    color: #BD2D30;
+}
+.tag {
+    width: 20%;
+}
+.tag + div {
+    width: 80%;
+    float: left;
+    display: block;
+    line-height: 20px;
+    margin: 16px 0;
+}
+.tag + div > div {
+    padding-bottom: 20px;
+}
+ol, ol li {
+    float: left;
+}
+ol {
+    width: 80%;
+    padding: 0;
+    list-style: none;
+}
+ol li {
+    line-height: 25px;
+    width: 30%;
+}
+ul {
+    margin: 0;
+}
+ul li {
+    list-style: square;
+}
+#notify {
+    width: 100%;
+    margin: 0 auto;
+    color: #fff;
+    background-color: #BD2D30;
+    position: fixed;
+    z-index: 9999;
+    text-align: center;
+}
+#resume {
+    position: relative;
+    padding: 50px;
+    margin: 0 auto;
+    width: 900px;
+}
+.out {
+    opacity: 0;
+}
+.fade {
+    transition: all 300ms linear 0ms;
+    -webkit-transform: translate3d(0,0,0);
+    -moz-transform: translate3d(0,0,0);
+    -ms-transform: translate3d(0,0,0);
+    -o-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+    opacity: 1;
+}
+.photo {
+    background-size: cover;
+    width: 150px;
+    height: 200px;
+    z-index: 2000;
+    position: absolute;
+    top: 20px;
+    left: 200px;
+}
+@media (max-width: 980px) {
+    .resume {
+        width: auto;
+    }
+}
+blockquote {
+    top: 40px;
+    right: 10px;
+    display: block;
+    position: absolute;
+}
+hr {
+    display: block;
+    position: relative;
+    padding: 0;
+    margin: 18px auto;
+    width: 100%;
+    clear: both;
+    border: none;
+    border-top: 1px solid #ccc;
+    font-size: 1px;
+    line-height: 0;
+    overflow: visible;
+    page-break-after: avoid;
+}
