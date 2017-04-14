@@ -1,14 +1,38 @@
 {
+    "Gender": "男",
+    "Name": "李坐都",
+    "Phone": "186_8238_9514",
+    "Profession": ".NET/C# & MS SQL Server程序员",
+    "School": { "StartDate": 2009, "EndDate": 2013 , "Name": "重庆邮电大学"},
+    "Skill": [
+        { "Type": "数据库", "Name": "MS SQL Server"},
+        { "Type": "WEB开发", "Name": "HTML, CSS, Javascript/jQuery/ExtJs, ASP.NET"},
+        { "Type": "WINDOWS应用开发", "Name": "WinForm"}
+    ],
     "Birthday": "1991",
     "Brief": "热爱.NET，毕业至今一直从事C#开发工作。掌握.NET常用基类库，C#编程语言及语法特性；热爱MS SQL Server数据库，并在工作中能根据需求优化T-SQL；了解面相对象特性和原则，了解部分设计模式。使用.NET/C#在生产制造和物业相关领域从事过3年左右的开发工作，涉及B/S和C/S架构的系统，并了解部分相关业务流程。",
-    "Education": "计算机网络及应用(专科2012) & 计算机及应用(本科2016)",
+    "Education": "计算机及应用(本科)",
     "Email": "lizuodu@163.com",
+    "Web": {
+        "GitHub": "https://github.com/lizuodu",
+        "Sample": "https://lizuodu.github.io/sample/"
+    },
     "Experience": [
         {
             "Place" : "深圳市思源计算机软件股份有限公司",
-            "Position": "Java程序员",
-            "Project": [],
-            "Time": "2016.12 ~ 至今"
+            "Position": ".NET中级工程师",
+            "Project": [
+                {
+                    "Name": "1、思源财务预算系统",
+                    "Introduce": "",
+                    "Role": "",
+                    "Get": [
+                        { "Description": "" }
+                    ]
+                }
+            ],
+            "StartDate": "2016.12",
+            "EndDate": "至今"
         },
         {
             "Place": "深圳市思源计算机软件股份有限公司 ",
@@ -26,7 +50,8 @@
                     ] 
                 }
             ],
-            "Time": "2016.3 ~ 2016.12"
+            "StartDate": "2016.3",
+            "EndDate": "2016.12"
         },
         {
             "Place": "深圳市金朵尔科技有限公司",
@@ -43,7 +68,8 @@
                     ]
                 }
             ],
-            "Time": "2015.4 ~ 2015.12 "
+            "StartDate": "2015.4",
+            "EndDate": "2015.12"
         },
         {
             "Place": "东莞技研新阳集团",
@@ -69,22 +95,8 @@
                     ] 
                 }
             ],
-            "Time": "2013.7 ~ 2015.4 "
+            "StartDate": "2013.7",
+            "EndDate": "2015.4"
         }
-    ],
-    "Gender": "男",
-    "Name": "李坐都",
-    "Phone": "186_8238_9514",
-    "Profession": ".NET/C# & MS SQL Server程序员",
-    "School": "2009 ~ 2013 重庆邮电大学",
-    "Skill": [
-        ".NET/C#",
-        "WinForm",
-        "ASP.NET Web Form",
-        "WCF",
-        "MS SQL Server",
-        "CSS",
-        "Javascript/jQuery/ExtJs",
-        "RHEL"
     ]
 }
