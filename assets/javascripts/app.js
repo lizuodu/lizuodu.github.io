@@ -18,7 +18,7 @@ $(function() {
         var currYear = d.getFullYear();
         $("#resume").setTemplateElement("resumetpl");
         $("#resume").setParam("year", currYear);
-        $("#resume").processTemplateURL("../data/resume_cn.json");
+        $("#resume").processTemplateURL("../../data/resume_cn.json");
     }
     
     function loadPhoto() {
