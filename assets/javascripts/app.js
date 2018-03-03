@@ -18,11 +18,11 @@ $(function() {
         var currYear = d.getFullYear();
         $("#resume").setTemplateElement("resumetpl");
         $("#resume").setParam("year", currYear);
-        $("#resume").processTemplateURL("data/resume_cn.json");
+        $("#resume").processTemplateURL("../data/resume_cn.json");
     }
     
     function loadPhoto() {
-        var photoUrl = "assets/images/photo.png";
+        var photoUrl = "../assets/images/photo.png";
         var $photo = $(".photo");
         $("h1").hover(function(){ 
             $photo.removeClass("out").addClass("fade");
