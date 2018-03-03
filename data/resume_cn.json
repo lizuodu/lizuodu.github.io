@@ -28,8 +28,8 @@
                     "Role": "完成预算计划、编制、执行模块；协助高级工程师开发部分平台功能，并积极参与讨论平台不足，提出改进措施；理解并开发业务功能，和实施、产品同事对接，完成个性化排班任务。",
                     "Get": [
                         { "Description": "为公司开发了多个jQuery控件" },
-                        { "Description": "尝试了AngularJS" },
-                        { "Description": "尝试了Tomcat集群"},
+                        { "Description": "学习使用了AngularJS" },
+                        { "Description": "学习使用了Tomcat负载匀衡"},
                         { "Description": "尝试了分布式文件系统FastDFS"},
                         { "Description": "开始了解SSM的一些原理，为更好完成任务，开始阅读源码" }
                     ]
