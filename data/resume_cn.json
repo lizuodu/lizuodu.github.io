@@ -5,9 +5,9 @@
     "Profession": "Java & MySQL程序员",
     "School": { "StartDate": 2009, "EndDate": 2013 , "Name": "重庆邮电大学"},
     "Skill": [
-        { "Type": "数据库", "Name": "MySQL、MS SQL Server"},
-        { "Type": "WEB开发", "Name": "HTML, CSS, Javascript/jQuery/ExtJs4.x"},
-        { "Type": "框架", "Name": "Spring Framework4.x、MyBatis3.x"}
+        { "Type": "数据库", "Name": "熟悉MySQL、熟悉MS SQL Server"},
+        { "Type": "WEB开发", "Name": "HTML, CSS, Javascript/jQuery/ExtJs"},
+        { "Type": "框架", "Name": "熟悉Spring Framework、熟悉MyBatis、了解Quartz"}
     ],
     "Birthday": "1991",
     "Brief": "热爱编程，毕业至今一直从事开发工作。掌握Java常用基类库，Java编程语言及语法特性；热爱MySQL数据库，并在工作中能根据需求优化SQL；了解面相对象特性和原则，了解部分设计模式。在生产制造和物业相关领域总共从事过近5年的开发工作，涉及B/S和C/S架构的系统，并了解部分相关业务流程。",
@@ -29,10 +29,9 @@
                     "Get": [
                         { "Description": "为公司开发了多个jQuery控件" },
                         { "Description": "使用AngularJS" },
-                        { "Description": "使用Tomcat实现负载匀衡" },
+                        { "Description": "使用Tomcat+Nginx+Redis实现负载匀衡" },
                         { "Description": "使用分布式文件系统FastDFS" },
-                        { "Description": "使用Quartz开发任务计划模块" },
-                        { "Description": "开始了解SSM的一些原理，为更好完成任务，开始阅读源码" }
+                        { "Description": "使用Quartz开发任务计划模块" }
                     ]
                 }
             ],
