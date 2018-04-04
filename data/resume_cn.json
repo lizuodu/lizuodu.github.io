@@ -6,11 +6,11 @@
     "School": { "StartDate": 2009, "EndDate": 2013 , "Name": "重庆邮电大学"},
     "Skill": [
         { "Type": "数据库", "Name": "熟悉MySQL、熟悉MS SQL Server"},
-        { "Type": "WEB开发", "Name": "HTML, CSS, Javascript/jQuery/ExtJs"},
-        { "Type": "框架", "Name": "熟悉Spring Framework、熟悉MyBatis、了解Quartz"}
+        { "Type": "前端", "Name": "HTML, CSS, Javascript/jQuery/ExtJs"},
+        { "Type": "后端框架", "Name": "熟悉Spring Framework、MyBatis等主流开源框架"}
     ],
     "Birthday": "1991",
-    "Brief": "热爱编程，毕业至今一直从事开发工作。掌握Java常用基类库，Java编程语言及语法特性；热爱MySQL数据库，并在工作中能根据需求优化SQL；了解面相对象特性和原则，了解部分设计模式。在生产制造和物业相关领域总共从事过近5年的开发工作，涉及B/S和C/S架构的系统，并了解部分相关业务流程。",
+    "Brief": "热爱编程，毕业至今一直从事开发工作。掌握Java常用基类库，Java编程语言及语法特性，了解JVM；热爱MySQL数据库，并在工作中能根据需求优化SQL；了解面相对象特性和原则，了解设计模式。在生产制造和物业相关领域总共从事过近5年的开发工作，涉及B/S和C/S架构的系统，了解相关业务流程。",
     "Education": "计算机及应用(本科)",
     "Email": "lizuodu@163.com",
     "Web": {
@@ -23,15 +23,23 @@
             "Position": "Java中级工程师",
             "Project": [
                 {
-                    "Name": "1、全面预算计划管理系统",
+                    "Name": "1、全面计划预算管理系统",
                     "Introduce": "以预算系统为主，结合业务执行系统为辅，帮助客户对企业实施预算。",
-                    "Role": "完成预算计划、编制、执行模块；协助高级工程师开发部分平台功能，并积极参与讨论平台不足，提出改进措施；理解并开发业务功能，和实施、产品同事对接，完成个性化排班任务。",
+                    "Role": "结合系统平台完成预算计划、编制、执行等模块，理解并开发业务功能；在项目经理安排下和实施、产品同事对接，完成个性化系统功能排班任务。",
                     "Get": [
-                        { "Description": "为公司开发了多个jQuery控件" },
                         { "Description": "使用AngularJS" },
-                        { "Description": "使用Tomcat+Nginx+Redis实现负载匀衡" },
-                        { "Description": "使用分布式文件系统FastDFS" },
-                        { "Description": "使用Quartz开发任务计划模块" }
+                        { "Description": "学习了ES6" }
+                    ]
+                }, 
+                {
+                    "Name": "2、系统平台",
+                    "Introduce": "完成一个可以支撑预算等业务系统开发的可实施的平台，包含任务计划，工作流，权限，日志管理，数据同步，报表，单点登录等功能。",
+                    "Role": "参与系统平台开发，集群环境搭建，数据库设计；基于jQuery封装文件上传、树型选择器等前端控件；后端完成文件上传管理系统，任务计划系统，权限系统。",
+                    "Get": [
+                        { "Description": "使用了FastDFS" },
+                        { "Description": "使用了Quartz" },
+                        { "Description": "学习使用ETL工具Kettle" },
+                        { "Description": "使用Tomcat+Nginx+Redis负载匀衡" }
                     ]
                 }
             ],
